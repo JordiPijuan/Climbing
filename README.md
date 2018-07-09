@@ -3,4 +3,4 @@
 
 ### Documentación
 
-[Wiki](https://github.com/JordiPijuan/Climbing/wiki)
+[Wiki](https://github.com/JordiPijuan/Climbing/wiki/Schools-wiki)
