@@ -1,0 +1,15 @@
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\Climbing.Info.Data.Access.dll.config
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\Climbing.Info.Data.Access.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\Climbing.Info.Data.Access.pdb
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\Climbing.Info.CrossCutting.Entities.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\Climbing.Info.CrossCutting.Entities.pdb
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.CodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.dll
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.pdb
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.Migrations.CreateDataBase.resources
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.CodeFirst.csproj.GenerateResource.Cache

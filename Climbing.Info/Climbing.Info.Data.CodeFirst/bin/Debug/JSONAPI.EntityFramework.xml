@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JSONAPI.EntityFramework</name>
+    </assembly>
+    <members>
+        <member name="M:JSONAPI.EntityFramework.EntityFrameworkMaterializer.GetById(System.Type,System.Object[])">
+            <summary>
+            Override here if you have mixed models and need to have child objects that are not supposed to be entities!
+            </summary>
+            <param name="type"></param>
+            <param name="idValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JSONAPI.EntityFramework.EntityFrameworkMaterializer.GetKeyProperties(System.Type)">
+            <summary>
+            Convenience wrapper around GetKeyNames.
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JSONAPI.EntityFramework.EntityFrameworkMaterializer.MaterializeEntityKey(System.Type,System.Object)">
+            <summary>
+            Will return an entity key for any object. If it is not actually an entity (that is, the type
+            is not found in the context as some DbSet), it will create a dummy EntityKey based on whatever
+            GetKeyNames says is the primary key. Override GetKeyNames to make this work properly for your
+            own model objects, see GetKeyNames for more information.
+            </summary>
+            <param name="type"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
