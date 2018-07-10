@@ -138,23 +138,6 @@
     <Compile Include="Configurations\Principals\SchoolEntityConfiguration.cs" />
     <Compile Include="Configurations\Principals\SectionEntityConfiguration.cs" />
     <Compile Include="Configurations\Principals\ZoneEntityConfiguration.cs" />
-    <Compile Include="Migrations\201612141623296_CreateDataBase.cs" />
-    <Compile Include="Migrations\201612141623296_CreateDataBase.Designer.cs">
-      <DependentUpon>201612141623296_CreateDataBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706092119361_Refactor.cs" />
-    <Compile Include="Migrations\201706092119361_Refactor.Designer.cs">
-      <DependentUpon>201706092119361_Refactor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706092236555_Refactor2.cs" />
-    <Compile Include="Migrations\201706092236555_Refactor2.Designer.cs">
-      <DependentUpon>201706092236555_Refactor2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706092244473_Refactor3.cs" />
-    <Compile Include="Migrations\201706092244473_Refactor3.Designer.cs">
-      <DependentUpon>201706092244473_Refactor3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SchoolsFluentContext.cs" />
   </ItemGroup>
@@ -165,30 +148,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Climbing.Info.Data.Entities\Climbing.Info.Data.Entities.csproj">
-      <Project>{15fdcc73-c782-43a7-9cc0-dafd01d6636a}</Project>
-      <Name>Climbing.Info.Data.Entities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MigrationsInstructions.txt" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201612141623296_CreateDataBase.resx">
-      <DependentUpon>201612141623296_CreateDataBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706092119361_Refactor.resx">
-      <DependentUpon>201706092119361_Refactor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706092236555_Refactor2.resx">
-      <DependentUpon>201706092236555_Refactor2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706092244473_Refactor3.resx">
-      <DependentUpon>201706092244473_Refactor3.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\Climbing.Info.CrossCutting.Entities\Climbing.Info.CrossCutting.Entities.csproj">
+      <Project>{15fdcc73-c782-43a7-9cc0-dafd01d6636a}</Project>
+      <Name>Climbing.Info.CrossCutting.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

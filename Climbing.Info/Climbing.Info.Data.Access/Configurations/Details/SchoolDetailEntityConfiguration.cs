@@ -2,7 +2,7 @@
 {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.ModelConfiguration;
-    using Entities.Details;
+    using CrossCutting.Entities.Details;
 
     public class SchoolDetailEntityConfiguration : EntityTypeConfiguration<SchoolDetailEntity>
     {

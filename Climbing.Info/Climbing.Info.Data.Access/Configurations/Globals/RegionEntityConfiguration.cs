@@ -2,7 +2,7 @@
 {
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.ModelConfiguration;
-    using Entities.Globals;
+    using CrossCutting.Entities.Globals;
 
     public class RegionEntityConfiguration : EntityTypeConfiguration<RegionEntity>
     {
