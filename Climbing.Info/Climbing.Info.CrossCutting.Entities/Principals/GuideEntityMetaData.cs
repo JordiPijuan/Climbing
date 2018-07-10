@@ -1,4 +1,4 @@
-﻿namespace Climbing.Info.Data.Entities.Principals
+﻿namespace Climbing.Info.CrossCutting.Entities.Principals
 {
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
