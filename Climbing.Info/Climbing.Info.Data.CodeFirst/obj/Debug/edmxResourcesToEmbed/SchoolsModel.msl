@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GeeksClimbingModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Comunidad">
+      <EntityTypeMapping TypeName="Geeks.ClimbingModel.Comunidad">
+        <MappingFragment StoreEntitySet="Comunidad">
+          <ScalarProperty Name="comunidadId" ColumnName="comunidadId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Escuela">
+      <EntityTypeMapping TypeName="Geeks.ClimbingModel.Escuela">
+        <MappingFragment StoreEntitySet="Escuela">
+          <ScalarProperty Name="escuelaId" ColumnName="escuelaId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="localidad" ColumnName="localidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pais">
+      <EntityTypeMapping TypeName="Geeks.ClimbingModel.Pais">
+        <MappingFragment StoreEntitySet="Pais">
+          <ScalarProperty Name="paisId" ColumnName="paisId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provincia">
+      <EntityTypeMapping TypeName="Geeks.ClimbingModel.Provincia">
+        <MappingFragment StoreEntitySet="Provincia">
+          <ScalarProperty Name="provinciaId" ColumnName="provinciaId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="regionId" ColumnName="regionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Region">
+      <EntityTypeMapping TypeName="Geeks.ClimbingModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="regionId" ColumnName="regionId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="paisId" ColumnName="paisId" />
+          <ScalarProperty Name="comunidadId" ColumnName="comunidadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
