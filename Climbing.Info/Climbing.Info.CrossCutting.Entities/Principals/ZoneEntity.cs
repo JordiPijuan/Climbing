@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public partial class ZoneEntity : BaseEntity
+    public partial class ZoneEntity : BaseLocation
     {
 
         public ZoneEntity()

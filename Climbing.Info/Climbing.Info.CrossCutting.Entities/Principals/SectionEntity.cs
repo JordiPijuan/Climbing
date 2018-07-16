@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using Details;
 
-    public partial class SectionEntity : BaseEntity
+    public partial class SectionEntity : BaseLocation
     {
 
         public SectionEntity()

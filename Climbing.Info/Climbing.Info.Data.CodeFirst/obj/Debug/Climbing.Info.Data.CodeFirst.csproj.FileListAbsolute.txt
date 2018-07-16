@@ -13,3 +13,5 @@ C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.
 C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.pdb
 C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.Migrations.CreateDataBase.resources
 C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.CodeFirst.csproj.GenerateResource.Cache
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.Migrations.AddLatitudLongitud.resources
+C:\Users\JordiPijuanMarquez\Documents\Climbing.Info\Climbing.Info\Climbing.Info.Data.CodeFirst\obj\Debug\Climbing.Info.Data.Access.Migrations.ModifyLatitudeLongitude.resources

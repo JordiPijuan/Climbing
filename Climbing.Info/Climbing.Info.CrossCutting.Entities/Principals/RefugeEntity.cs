@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using Details;
 
-    public partial class RefugeEntity : BaseEntity
+    public partial class RefugeEntity : BaseLocation
     {
 
         public RefugeEntity()

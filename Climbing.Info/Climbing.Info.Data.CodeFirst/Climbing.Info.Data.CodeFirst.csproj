@@ -81,6 +81,14 @@
     <Compile Include="Migrations\201807100927068_CreateDataBase.Designer.cs">
       <DependentUpon>201807100927068_CreateDataBase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807162046511_AddLatitudLongitud.cs" />
+    <Compile Include="Migrations\201807162046511_AddLatitudLongitud.Designer.cs">
+      <DependentUpon>201807162046511_AddLatitudLongitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807162055211_ModifyLatitudeLongitude.cs" />
+    <Compile Include="Migrations\201807162055211_ModifyLatitudeLongitude.Designer.cs">
+      <DependentUpon>201807162055211_ModifyLatitudeLongitude.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SchoolsFluentContext.cs" />
@@ -106,6 +114,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807100927068_CreateDataBase.resx">
       <DependentUpon>201807100927068_CreateDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807162046511_AddLatitudLongitud.resx">
+      <DependentUpon>201807162046511_AddLatitudLongitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807162055211_ModifyLatitudeLongitude.resx">
+      <DependentUpon>201807162055211_ModifyLatitudeLongitude.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

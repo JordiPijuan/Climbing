@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
     <Compile Include="BaseEntityMetadata.cs" />
+    <Compile Include="BaseLocation.cs" />
+    <Compile Include="BaseLocationMetaData.cs" />
     <Compile Include="Details\ClimberImageEntity.cs" />
     <Compile Include="Details\ClimberImageEntityMetaData.cs" />
     <Compile Include="Details\RefugeImageEntity.cs" />

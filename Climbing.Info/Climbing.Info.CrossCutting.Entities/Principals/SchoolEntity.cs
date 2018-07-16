@@ -4,7 +4,7 @@
     using Details;
     using Globals;
 
-    public partial class SchoolEntity : BaseEntity
+    public partial class SchoolEntity : BaseLocation
     {
 
         public SchoolEntity()
